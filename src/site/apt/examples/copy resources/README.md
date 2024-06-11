@@ -15,3 +15,7 @@
   * ALSO contains 'validate' phase -> Check the files copied under 'target/extra-resources'
 * `mvn validate`
   * Check the files copied under 'target/extra-resources'
+* `mvn resources:copy-resources`
+  * Problems:
+    * Problem1: "The parameters 'resources', 'outputDirectory' for goal org.apache.maven.plugins:maven-resources-plugin:3.3.1:copy-resources are missing or invalid"
+      * Solution: TODO:
