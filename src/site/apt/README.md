@@ -9,6 +9,7 @@
 * goals == ways to specify resource & output directory elements 
   * `resources:resources`
     * main resources -- are copied to -- main output directory
+      * test resources NOT copied!!!
     * executed automatically
       * Reason: 🧠 bounded by default to 'process-resources' life-cycle phase -- [Link](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#setting-up-your-project-to-use-the-build-lifecycle) -- 🧠
     * elements
@@ -18,6 +19,7 @@
         * -- allows specifying the -- main output directory
   * `resources:testResources`
     * test resources -- are copied to -- test output directory
+      * main resources NOT copied!!!
     * executed automatically
       * Reason: 🧠 bounded by default to 'process-test-resources' life-cycle phase -- [Link](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#setting-up-your-project-to-use-the-build-lifecycle) -- 🧠
     * elements
