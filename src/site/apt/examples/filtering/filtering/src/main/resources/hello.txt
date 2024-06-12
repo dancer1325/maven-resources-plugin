@@ -1,1 +1,8 @@
+# name              built-in project variable in pom.xml
 Hello ${name}
+
+# custom project variables
+Hello ${your.name}
+
+# separated file
+Hello ${separatedfile}

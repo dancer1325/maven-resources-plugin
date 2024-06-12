@@ -37,3 +37,13 @@
   * `-D`
     * allows
       * assigning values
+* Check 'maven-filtering'
+* `<your.name>` property
+  * evaluated because
+    * Reason: 🧠 we are using 'maven-filtering' -- via -- maven-resources-plugin's filter & defined under `<properties>`🧠
+* `separatedfile` property
+  * specified -- by a -- separated file
+  * done -- via -- `execution.configuration.filters.filter`
+  * if you filter -> binary content NOT allowed!!!
+    * TODO: Add example
+    * Solution: Add separated folder / NO filter

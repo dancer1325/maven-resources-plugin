@@ -12,6 +12,8 @@
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
+    <!-- Custom project variables -->
+    <your.name>Alfred</your.name>
   </properties>
 
   <dependencies>
@@ -44,6 +46,10 @@
                   <filtering>true</filtering>
                 </resource>
               </resources>
+              <!-- Specify variables in a separated file -->
+              <filters>
+                <filter>myfiltervalues.properties</filter>
+              </filters>
             </configuration>
           </execution>
         </executions>
